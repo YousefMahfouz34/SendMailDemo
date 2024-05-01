@@ -1,0 +1,14 @@
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\SendMailDemo.exe
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\SendMailDemo.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\SendMailDemo.deps.json
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\SendMailDemo.runtimeconfig.json
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\SendMailDemo.pdb
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\BouncyCastle.Cryptography.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\MailKit.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

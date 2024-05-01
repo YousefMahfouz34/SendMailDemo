@@ -33,3 +33,4 @@ D:\Projects\SendMailDemo\SendMailDemo\obj\Debug\net8.0\refint\SendMailDemo.dll
 D:\Projects\SendMailDemo\SendMailDemo\obj\Debug\net8.0\SendMailDemo.pdb
 D:\Projects\SendMailDemo\SendMailDemo\obj\Debug\net8.0\SendMailDemo.genruntimeconfig.cache
 D:\Projects\SendMailDemo\SendMailDemo\obj\Debug\net8.0\ref\SendMailDemo.dll
+D:\Projects\SendMailDemo\SendMailDemo\obj\Debug\net8.0\SendMailDemo.sourcelink.json

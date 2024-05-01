@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SendMailDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|D:\\Projects\\SendMailDemo\\sendmaildemo\\controllers\\sendmailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\controllers\\sendmailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|d:\\projects\\sendmaildemo\\sendmaildemo\\services\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\services\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|D:\\Projects\\SendMailDemo\\sendmaildemo\\services\\sendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\services\\sendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|d:\\projects\\sendmaildemo\\sendmaildemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|D:\\Projects\\SendMailDemo\\sendmaildemo\\services\\isendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\services\\isendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|D:\\Projects\\SendMailDemo\\sendmaildemo\\services\\bodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\services\\bodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|D:\\Projects\\SendMailDemo\\sendmaildemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B45516A-CBFE-4E44-B8BE-756B2566070A}|SendMailDemo\\SendMailDemo.csproj|solutionrelative:sendmaildemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\Response.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Services\\Response.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\Response.cs",
+              "RelativeToolTip": "SendMailDemo\\Services\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:14:01.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Program.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Program.cs",
+              "RelativeToolTip": "SendMailDemo\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:35:42.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendMailController.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Controllers\\SendMailController.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Controllers\\SendMailController.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Controllers\\SendMailController.cs",
+              "RelativeToolTip": "SendMailDemo\\Controllers\\SendMailController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:48:50.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISendMailServices.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\ISendMailServices.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Services\\ISendMailServices.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\ISendMailServices.cs",
+              "RelativeToolTip": "SendMailDemo\\Services\\ISendMailServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:46:38.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BodyDto.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\BodyDto.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Services\\BodyDto.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\BodyDto.cs",
+              "RelativeToolTip": "SendMailDemo\\Services\\BodyDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:45:31.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "SendMailDemo\\appsettings.json",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\appsettings.json",
+              "RelativeToolTip": "SendMailDemo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T12:36:23.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendMailServices.cs",
+              "DocumentMoniker": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\SendMailServices.cs",
+              "RelativeDocumentMoniker": "SendMailDemo\\Services\\SendMailServices.cs",
+              "ToolTip": "D:\\Projects\\SendMailDemo\\SendMailDemo\\Services\\SendMailServices.cs",
+              "RelativeToolTip": "SendMailDemo\\Services\\SendMailServices.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:29:16.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

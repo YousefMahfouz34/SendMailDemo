@@ -16,23 +16,33 @@ namespace SendMailDemo.Services
         {
             _emailsettings = mailsettings.Value;
         }
-        public async Task SendMail(string mailto, string subject, string body)
+        public async Task<bool> SendMail( BodyDto body)
         {
             var email = new MimeMessage
             {
                 Sender = MailboxAddress.Parse(_emailsettings.Email),
-                Subject = subject,
+                Subject = "Email from ksa crash lab contact form",
             };
-            email.To.Add(MailboxAddress.Parse(mailto));
+            email.To.Add(MailboxAddress.Parse("elmotasembelahelsayed12@gmail.com"));
             var builder = new BodyBuilder();
-            builder.HtmlBody = body;
+           
+                string bodyText = $"Name: {body.name} <br/> Email: {body.email} <br/> subject: {body.subject} <br/>  message: {body.message}";
+                builder.HtmlBody=bodyText;
+            
+            
             email.Body = builder.ToMessageBody();
             email.From.Add(new MailboxAddress(_emailsettings.DisplayName, _emailsettings.Email));
             using var smtp = new SmtpClient();
             smtp.Connect(_emailsettings.Host, _emailsettings.Port, SecureSocketOptions.StartTls);
             smtp.Authenticate(_emailsettings.Email, _emailsettings.Password);
-            await smtp.SendAsync(email);
+            var result = await smtp.SendAsync(email);
+
             smtp.Disconnect(true);
+            var status = result.Split(" ")[0];
+            if (status == "2.0.0")
+                return true;
+            else
+                return false;
         }
     }
 }

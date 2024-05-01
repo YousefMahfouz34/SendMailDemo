@@ -14,16 +14,19 @@ namespace SendMailDemo.Controllers
             this.sendMailServices = sendMailServices;
         }
         [HttpPost]
-        public  async Task<IActionResult> SendMail(String mailto, String subject, String body)
+        public  async Task<IActionResult> SendMail( BodyDto body)
         {
+            Response response = new Response();
             try
             {
-                await sendMailServices.SendMail(mailto, subject, body);
-                return Ok("sent");
+                await sendMailServices.SendMail( body);
+                response.message = "Email Send";
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                response.message = "Email not Send";
+                return BadRequest(response);
 
             }
 

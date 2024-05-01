@@ -8,19 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "mailto",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "subject",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "body",
-        "Type": "System.String",
-        "IsRequired": false
+        "Type": "SendMailDemo.Services.BodyDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

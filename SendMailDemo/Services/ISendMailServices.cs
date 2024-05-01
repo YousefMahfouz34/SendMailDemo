@@ -2,6 +2,6 @@
 {
     public interface ISendMailServices
     {
-        Task SendMail(string mailto, string subject, string body);
+        Task<bool> SendMail( BodyDto body);
     }
 }

@@ -9,7 +9,17 @@ namespace SendMailDemo
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Services.AddCors(option =>
+            {
+                option.AddPolicy("tempPolicy", x =>
+                {
+                    x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod();
+                });
+                option.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                });
+            });
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -20,17 +30,15 @@ namespace SendMailDemo
             builder.Services.AddScoped<ISendMailServices, SendMailServices>();
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            
+            app.UseSwagger();
+            app.UseSwaggerUI();
+            
 
             app.UseHttpsRedirection();
+            app.UseCors("tempPolicy");
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
